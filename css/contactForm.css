@@ -1,0 +1,83 @@
+#contactF{
+	font-family: 'Roboto Condensed', sans-serif;
+    
+    height: 100vh;
+          
+}
+
+#loginBoxForm {
+    width: 50em;
+    /*320*/
+    min-height: 40em;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 2em 4em;
+    margin-top: 0.5rem!important;
+    margin-bottom: 2em;
+    
+}
+
+
+/*formulaire de contact*/
+
+
+
+input[class="inputContact"]
+{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 1em;
+    color: #fff;
+    font-size: 1em;
+    width: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+
+#bouton{
+    border: none;
+    outline: none;
+    background: #FF5733;
+    color: #fff;
+    font-size: 1.1em;
+    width: 100%;
+    border-radius: 1.2em;
+    padding: 0.5em 0.5em;
+
+}
+
+#bouton:hover{
+    border: none;
+    outline: none;
+    background: #ff4500;
+    color: #fff;
+    font-size: 1.1em;
+    width: 100%;
+    border-radius: 1.2em;
+    padding: 0.5em 0.5em;
+
+}
+#message{
+    width: 100%;
+    height: 8em;
+}
+.contactLabel{
+
+    margin-bottom: 0 !important;
+}
+
+.thanks{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}

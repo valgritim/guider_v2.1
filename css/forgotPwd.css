@@ -1,0 +1,112 @@
+#forgot{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(../img/saintPaul.jpg);
+    
+}
+
+
+.login-box {
+    width: 35rem;
+    /*320*/
+    height: 30rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+}
+
+.login-box h3{
+    text-align: center;
+
+
+}
+.login-box h4{
+    
+    background: rgba(255,255,255, 0.5);
+
+
+}
+
+.btn-alt {
+    border: none;
+    outline: none;
+    background: #FF5733;
+    color: #fff;
+    font-size: 1.1em;
+    width: 80%;
+    border-radius: 1.5em;
+
+    
+}
+.btn-alt:hover {
+    cursor: pointer;
+    background: #ff4500;
+    color: #000;
+
+}
+
+
+p.forgotP {
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+
+login-box input {
+    width: 100%;
+}
+login-box input {
+    width: 100%;
+}
+
+.login-box input[type="text"] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 1em;
+    color: #fff;
+    font-size: 1em;
+    width: 100%;
+}
+
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    background: #FF5733;
+    color: #fff;
+    font-size: 1.1em;
+    width: 100%;
+    border-radius: 1.2em;
+
+
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ff4500;
+    color: #000;
+
+}
+
+.forgot{
+    color: #fff;
+    
+}
+.forgot:hover{
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+

@@ -1,0 +1,94 @@
+#bgLogin{
+	background-image: url(../img/saintPaul.jpg);
+    background-size: cover;
+	padding: 100px 0;
+	color: #FFF;
+}
+.loginParts{
+	background: rgba(0,0,0,0.5);
+	padding: 10px 5px 5px 10px;
+}
+
+#loginLarge{
+    min-height: 530px;
+}
+.panel-heading>h4{
+	background: rgba(255,255,255, 0.5);
+}
+
+#bgLogin label{
+	font-weight: bold;
+	color:#FFF;
+}
+#bgLogin input[type="text"],#bgLogin input[type="password"],#bgLogin input[type="email"]{
+	border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 1em;
+    color: #fff;
+    font-size: 1em;
+    width: 100%;
+}
+.btn-alt {
+    border: none;
+    outline: none;
+    background: #FF5733;
+    color: #fff;
+    font-size: 1.1em;
+    width: 80%;
+    border-radius: 1.5em;
+    padding: 5px 5px;    
+}
+.btn-alt:hover {
+    cursor: pointer;
+    background: #ff4500;
+    color: #000;
+
+}
+footer{
+	margin-top:0;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+
+    
+    ul.navbar-nav{
+        margin-left: 150px;
+
+    }
+
+    #registerBtnDisplayL{
+
+        width: 200px;
+    }
+
+    #bgLogin input[type="submit"]{
+
+        width: 200px;
+    }
+    #loginPartL{
+
+        width: 700px;
+        margin-left: 162px;
+        padding-top: 20px;
+    }
+    #registerPartL{
+
+        width: 700px;
+        margin-left: 162px;
+        padding-top: 20px;
+    }
+
+    footer a.nav-link{
+
+        position: none!important;
+        right: -50rem!important;
+    }
+
+
+
+
+}

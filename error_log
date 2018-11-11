@@ -1,0 +1,16 @@
+[16-Sep-2018 11:53:18 UTC] PHP Warning:  file_put_contents(/logs/connections.txt): failed to open stream: No such file or directory in /home/mathieum/guider/disconnect.php on line 6
+[16-Sep-2018 15:28:29 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 15:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function exist() on null in /home/mathieum/guider/secure.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/mathieum/guider/secure.php on line 27
+[16-Sep-2018 15:34:12 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 15:35:20 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 15:38:22 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 15:39:36 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 15:40:57 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 16:33:20 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 16:40:47 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 16:42:04 UTC] PHP Warning:  preg_match(): Unknown modifier 'g' in /home/mathieum/guider/secure.php on line 39
+[16-Sep-2018 16:43:11 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/mathieum/guider/secure.php on line 34
+[16-Sep-2018 17:21:38 UTC] PHP Warning:  file_put_contents(/logs/connections.txt): failed to open stream: No such file or directory in /home/mathieum/guider/disconnect.php on line 6

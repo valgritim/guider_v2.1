@@ -1,0 +1,61 @@
+#index{
+
+	background: url(../img/saintPaul.jpg);
+    background-size: cover;
+}
+.admin {
+
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.help-inline {
+    color: red;
+}
+.lien{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+.text-logo {
+    color: #fff;
+    text-shadow: 2px 2px #F77825;
+    font-size: 50px;
+    padding: 40px 0px;
+    text-align: center;
+
+}
+.row.index{
+
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.row h1{
+	color: #F77825;
+}
+.container.insert{
+    max-width: 50rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+label{
+
+    font-weight: bold;
+}
+.text-center{
+
+    width: 100%;
+    padding-top: 2rem;
+    border-radius: 5rem;
+}
+a.btn-danger,a.btn-primary,a.btn-success{
+    color: #fff;
+}
+#tabs{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    min-height: 783.5px;
+}

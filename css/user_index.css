@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(../img/saintPaul.jpg);
+
+}
+header{
+    background-color: #2D5986;
+}
+#mainLogo{
+        z-index: 999;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        box-shadow: 5px 5px 4px 1px rgba(15,15,15,0.7);
+}
+.nav{
+        position: absolute;
+        top: 0px;
+}
+.navbar-blue{
+    background-color: #2D5986;
+
+}
+.text-custom-white{
+    color: #FBFBFB;
+}
+
+nav{
+    height: 100%;
+
+}
+nav ul{
+    height: 100%;
+
+}
+nav ul>li{
+    height: 100%;
+}
+li>a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: #B6B6B6;
+}
+
+.dropdown-menu,.dropdown-item{
+    background-color: #2D5986;
+}
+.dropdown-item:hover{
+    background-color: #346AA1;
+    color: #FBFBFB;
+}
+.container.thumbnail{
+  
+  margin-bottom: 2em;
+}
+.admin {
+
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.help-inline {
+    color: red;
+}
+.lien{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+.text-logo {
+    color: #fff;
+    text-shadow: 2px 2px #F77825;
+    font-size: 50px;
+    padding: 10px 0px 0px ;
+    text-align: center;
+
+}
+h1{
+    color: #F77825;
+}
+
+.row h2{
+    color: #F77825;
+}
+.row h4{
+	color: #F77825;
+}
+.container.admin{
+    margin-top: 7em;
+    margin-bottom: 2em;
+}
+.panel{
+
+    display: none;
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.card{
+
+    width: 40rem;
+}
+/*media queries------------------------------------------------------*/
+
+@media screen and (max-width: 768px){
+
+    body{
+
+        background-image: none;
+        
+    }
+    #mainLogo{
+        display: none;
+    }
+    div.container.admin{
+
+        padding: 0;
+        padding-top: 25px;
+        margin: 0;
+    }
+    #h2,#h4{
+
+        text-align: left!important;
+        
+    }
+
+    .row{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #compte{
+        width: inherit;
+        padding-left: 2px;    
+    }
+    #fiche_user{
+        margin-left: 0;
+        padding: 10px!important;
+        width: inherit;
+       
+
+    }
+    #update_user{
+        padding-left: 0;
+        margin-bottom: 20px;
+        margin-left: -20px;
+    }
+    #resa{
+        padding-left: 0;
+        padding-right: 0;
+        width: inherit;
+      
+    }
+    #resa h3{
+
+        padding-left: 2px!important;
+        
+    }
+    #resa h4{
+
+        padding-left: 16px!important;
+        width: 340px;
+        font-size: 20px;
+
+    }
+    .card{
+        width: 340px!important;
+    }
+    #accordion{
+
+        text-align: left!important;
+        margin-left: 10px;
+        width: 320px;
+    }
+
+    #cancelBouton.card-body{
+        width: inherit;
+    }
+    .card{
+        width: 340px;
+        padding: 0!important;
+    }
+    .card-body{
+
+        width: 340px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #modif{
+        width: 28rem;
+        padding-left: 4rem;
+
+
+    }
+    #btnModif{
+
+        margin-bottom: 2rem;
+    }
+    h1{
+        text-align: center;
+    }
+    #card-resa{
+        display: none
+    }
+
+
+}
+

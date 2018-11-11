@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/fond_guides.jpg);
+	background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #2d5986;
+}
+.container{
+	background: rgba(255, 255, 255, 0.5);
+	margin-bottom: 5rem;
+	height: auto;
+	padding-bottom: 5rem;
+}
+h1{
+	padding-top: 4rem;
+
+	
+}
+form{
+	
+	padding: 2rem;
+
+}
+.form-actions{
+
+	margin-bottom: 3rem;
+}
+.form-actions a{
+
+	margin-left: 2rem;
+}
+img{
+	margin-bottom: 2rem;
+		
+}
+#reserve{
+	
+	margin-top: 8rem;
+	
+}
+input#reservation:hover{
+
+	background-color: #2d5986!important;
+}
+.card{
+
+	border-radius: 0 !important;
+}
+.card-deck a{
+	color: #fff;
+	
+}
+.card-body{
+	padding: 0.75rem;
+	margin: 0;
+}
+
+.card form{
+	padding-top: 0;
+}
+
+form img{
+
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h6{
+	text-align: center;
+	padding-top: 1rem;
+}
+
+#calendar{
+	max-width: 50rem;
+	margin: 40px auto;
+	font-weight: bold;
+}
+@media screen and (max-width: 768px){
+
+	body>h1{
+		color: #fff;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	form{
+
+		margin: 0;
+		padding: 0;		
+	}
+	#identity{
+		padding-left: 0!important;
+	}
+
+	form>img{
+
+		margin: 10px 35px; .
+	}
+	.form-group{
+		text-align: center;
+
+	}
+	
+	.card{
+		width: 100%!important;
+	}
+	#date{
+		width: 80%;
+		margin-left: 1.8rem;
+	}
+	#horaire{
+		text-align: center;
+		width: 100%;
+	}
+	.form-check-inline{
+		margin-right: 0!important;
+		padding-left: 1rem;
+	}
+	#bouton{
+
+		margin-left: 80px;
+	}
+
+}

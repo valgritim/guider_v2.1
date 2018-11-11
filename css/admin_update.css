@@ -1,0 +1,48 @@
+/*ADMIN*/
+
+body{
+
+	background-image: url(../img/saintPaul.jpg);
+}
+
+.container.update{
+	background-color: #fff;
+	border-radius: 2rem;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	float: none;
+	padding-top: 3rem;
+	font-size: 2rem;
+
+}
+h2{
+	color: #F77825;
+	margin: 2rem auto;
+}
+
+.card.update{
+	border: 5px solid grey;
+	border-radius: 1rem;
+	width: 30rem;
+
+	
+}
+.card-body a{
+	color: #fff;
+
+}
+.card-title{
+
+	font-weight: bold;
+	padding-left: 2rem;
+	font-size: 2rem;
+}
+.card-text{
+
+	padding: 2rem;
+
+}
+label{
+
+	font-weight: bold;
+}
